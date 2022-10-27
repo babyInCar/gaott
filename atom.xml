@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://babyincar.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://babyincar.github.io/"/>
+  <updated>2022-10-26T15:07:39.538Z</updated>
+  <id>http://babyincar.github.io/</id>
+  
+  <author>
+    <name>Shuang Gao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>article title</title>
+    <link href="http://babyincar.github.io/2022/10/26/article-title-1/"/>
+    <id>http://babyincar.github.io/2022/10/26/article-title-1/</id>
+    <published>2022-10-26T14:42:14.000Z</published>
+    <updated>2022-10-26T15:07:39.538Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这是我在HEXO发出的第一篇文章，以后这就是我的分享天地了！&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>article title</title>
+    <link href="http://babyincar.github.io/2022/10/26/article-title/"/>
+    <id>http://babyincar.github.io/2022/10/26/article-title/</id>
+    <published>2022-10-26T14:04:09.000Z</published>
+    <updated>2022-10-26T14:21:49.214Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hello</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://babyincar.github.io/2022/10/26/hello-world/"/>
+    <id>http://babyincar.github.io/2022/10/26/hello-world/</id>
+    <published>2022-10-26T12:28:17.130Z</published>
+    <updated>2022-10-26T12:28:17.130Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
