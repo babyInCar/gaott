@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>十月de最后一天</title>
+      <link href="/2022/11/03/shi-yue-de-zui-hou-yi-tian/"/>
+      <url>/2022/11/03/shi-yue-de-zui-hou-yi-tian/</url>
+      
+        <content type="html"><![CDATA[<div class="toc"><!-- toc --><ul><li><a href="#part-i-stripe-yan-jiu">part I Stripe研究</a></li><li><a href="#part-ii-shi-yue-de-zui-hou-yi-chang-mian-shi">part II、十月的最后一场面试</a></li><li><a href="#part-iii-chi-dao-de-mian-shi">Part III、迟到的面试</a></li><li><a href="#part-iv-mei-li-wan-xia">Part IV、美丽晚霞</a></li></ul><!-- tocstop --></div>周一       雨<b>关键词：Stripe研究  面试</b><p>导语：</p><blockquote><p>今天是10月的最后一天，说实话我有点慌，因为马上就三个月了，但是我还没有收到一个offer，所以早上起来吃完饭之后，我就开启了boss直聘。寻找新的面试的机会，然后。。。。。</p></blockquote><h2><span id="part-i-stripe-yan-jiu">part I Stripe研究</span><a href="#part-i-stripe-yan-jiu" class="header-anchor">#</a></h2><p>接着昨天晚上的odoo安装继续说，我把电脑上的postgresql和odoo16都卸载了，然后装上了odoo14，果然没有让我失望，这次真的装上了，打开localhost:8069,显示的就直接是设置数据库的界面了，让我甚是欣慰，心里想还好昨晚没有耽误太久。然后我在服务器上使用docker装载odoo，装载好之后没有办法正常访问，我懵逼了，赶紧联系我哥，他说晚点帮我看一下。</p><p>我就尝试在本地使用odoo来安装stripe试试，在应用里面很容易就找到了stripe，但是找了好半天，我竟然都没有入口怎么进去这个应用，文档里面写的输出Accounting–&gt;Configuration, 但是我找了半天没有找到Accounting这个入口，最后我看了下我有Invoicing 这个入口，于是尝试从Invocing的Configuration这个入口进去看了一下，竟然还真有，具体的可以参见Odoolink strip</p><h2><span id="part-ii-shi-yue-de-zui-hou-yi-chang-mian-shi">part II、十月的最后一场面试</span><a href="#part-ii-shi-yue-de-zui-hou-yi-chang-mian-shi" class="header-anchor">#</a></h2><p>上午还有另一件让人振奋的事情就是，早上11点半左右的时候，我收到了宝安一家公司的面试邀请，让人开心的是，然后约了下午三点的面试，我又兴奋了，同时对于即将到来的面试有了一丝期待，中午的时候，我简单的去味琪吃了一点，然后回家复习了一会之后，就午休了，醒来之后带上我的小本本还有go语言的书就出发了，由于那边没有地铁，只能坐公交过去了，于是我步行到灵芝地铁站的公交站等车，大概等了4分钟左右，车就到了，坐上车我依然在看着关于redis的内容（但是面试完之后会发现基本没什么卵用），2点40分左右我到了宝华油站公交车，下车之后创维大厦清晰可见，在导航的协助下，我先是进到了创维大厦里面，但是进去后发现并没有我要找的七栋，问了保安才知道是旁边那一栋，然后我走到马路对面，又绕了很大的弯才找到7栋，这也是很tm的不好找啊。<br>直接上7楼，到了之后我发现他们公司竟然和血之缘发现他们公司还是挺大的，占了一整层楼，前台小姐姐现实让我填了个表，然后被引导到里面的会议室去了，他们的会议室布局非常奇怪，围了一个椭圆形的中间是空的，看起来是有些奇怪的，不过没关系了，对于面试来说足够了，我在房间里面等着面试官迟迟没到，于是负责招聘的同事先过来撑场子，在那里和我聊了半天，主要是考察个人的性格以及之前的工作经验这些，中间一度我赶紧她快问完了问题，望向门外面试官依然没有来，她只能硬着头皮继续问，大概过了40分钟面试官终于进来了。<br>面试正式开始了，  具体问了哪些问题我就不在这里赘述了，面试总体下来，感觉自己表现的还算不错了，面试完之后，面试官和人事出去了，过了几分钟之后，人事进来说因为还有其他的候选人要综合评估下，可以在明天问下招聘的人士面试结果，让我先回去了，我当时隐隐有种不好的预感。<br><img src="/medias/images/1031_robot.JPEG"><br>从他们公司出来之后，心情似乎放松了很多，但是有有些遗憾，走出他们公司的时候我看到了有人在调试无人车，觉得做硬件工程师还是挺爽的啊，做出来的东西又有趣又能拿高薪。</p><h2><span id="part-iii-chi-dao-de-mian-shi">Part III、迟到的面试</span><a href="#part-iii-chi-dao-de-mian-shi" class="header-anchor">#</a></h2><p>走出创维谷上公交准备回去的时候，接到了一个电话，看了号码我猜测应该是某个公司的HR，接通电话之后竟然是SHAOKE的人事，想要跟我确定面试时间，我说明天下午吧，上午有事，然后就定了次日下午三点半，想到明天还有两个面试，于是心里再次充满了期望。</p><h2><span id="part-iv-mei-li-wan-xia">Part IV、美丽晚霞</span><a href="#part-iv-mei-li-wan-xia" class="header-anchor">#</a></h2><p>晚上回到家后，想着白天答应的我老婆今天要给她买九制话梅的，在去的过程中发现天边的天空就像一个不胜酒力的少女喝醉了一样，煞是好看。忍不住拍了一些照片。<br><img src="/medias/images/1031_sunset.jpg"><br>于是我就跑到了灵芝地铁站，按照之前的记忆找到了卖话梅的店，到了却发现他们的店员准备下班了，但是还不到7点，这。。。。我问是不是停电了，她们说是的，我不甘心 还是问他们还有没有话梅，她们说正好卖完了，在回家前我问店员可否加她个微信，到货的时候好发给我，她答应了，还把我拉到了他们的顾客群。带着一丝落寞我回到了小区，辗转于几个超市，希望能够给老婆找到话梅，但是找了几家他似乎都不太满意，然后我就买了点东西回家了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 生活日常 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>十一月的第一天</title>
       <link href="/2022/11/03/2022-11-01/"/>
       <url>/2022/11/03/2022-11-01/</url>

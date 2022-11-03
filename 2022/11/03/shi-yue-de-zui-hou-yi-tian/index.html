@@ -4,8 +4,26 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签, babyInCar">
-    <meta name="description" content="babyInCar">
+    <meta name="keywords" content="十月de最后一天, babyInCar">
+    <meta name="description" content="
+
+
+
+
+part I Stripe研究
+part II、十月的最后一场面试
+Part III、迟到的面试
+Part IV、美丽晚霞
+
+
+
+
+周一       雨
+关键词：Stripe研究  面试
+
+导语：
+
+今天是10月的最后一天，说实话">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +35,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签 | babyInCar</title>
+    <title>十月de最后一天 | babyInCar</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -331,107 +349,466 @@
 
 </header>
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                    babyInCar
-                
-            </div>
+    
 
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="/libs/typed/typed.js"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "从来没有真正的绝境, 只有心灵的迷途",
-                            
-                                "Never really desperate, only the lost of the soul",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">十月de最后一天</h1>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
+
+
+
+<main class="post-container content">
+
+    
+    <div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
+                                <span class="chip bg-color">生活日常</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
+                                随笔
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2022-11-03
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <div class="toc">
+
+<!-- toc -->
+
+<ul>
+<li><a href="#part-i-stripe-yan-jiu">part I Stripe研究</a></li>
+<li><a href="#part-ii-shi-yue-de-zui-hou-yi-chang-mian-shi">part II、十月的最后一场面试</a></li>
+<li><a href="#part-iii-chi-dao-de-mian-shi">Part III、迟到的面试</a></li>
+<li><a href="#part-iv-mei-li-wan-xia">Part IV、美丽晚霞</a></li>
+</ul>
+<!-- tocstop -->
+
+</div>
+周一       雨
+<b>关键词：Stripe研究  面试</b>
+
+<p>导语：</p>
+<blockquote>
+<p>今天是10月的最后一天，说实话我有点慌，因为马上就三个月了，但是我还没有收到一个offer，所以早上起来吃完饭之后，我就开启了boss直聘。寻找新的面试的机会，然后。。。。。</p>
+</blockquote>
+<h2><span id="part-i-stripe-yan-jiu">part I Stripe研究</span><a href="#part-i-stripe-yan-jiu" class="header-anchor">#</a></h2><p>接着昨天晚上的odoo安装继续说，我把电脑上的postgresql和odoo16都卸载了，然后装上了odoo14，果然没有让我失望，这次真的装上了，打开localhost:8069,显示的就直接是设置数据库的界面了，让我甚是欣慰，心里想还好昨晚没有耽误太久。然后我在服务器上使用docker装载odoo，装载好之后没有办法正常访问，我懵逼了，赶紧联系我哥，他说晚点帮我看一下。</p>
+<p>我就尝试在本地使用odoo来安装stripe试试，在应用里面很容易就找到了stripe，但是找了好半天，我竟然都没有入口怎么进去这个应用，文档里面写的输出Accounting–&gt;Configuration, 但是我找了半天没有找到Accounting这个入口，最后我看了下我有Invoicing 这个入口，于是尝试从Invocing的Configuration这个入口进去看了一下，竟然还真有，具体的可以参见Odoolink strip</p>
+<h2><span id="part-ii-shi-yue-de-zui-hou-yi-chang-mian-shi">part II、十月的最后一场面试</span><a href="#part-ii-shi-yue-de-zui-hou-yi-chang-mian-shi" class="header-anchor">#</a></h2><p>上午还有另一件让人振奋的事情就是，早上11点半左右的时候，我收到了宝安一家公司的面试邀请，让人开心的是，然后约了下午三点的面试，我又兴奋了，同时对于即将到来的面试有了一丝期待，中午的时候，我简单的去味琪吃了一点，然后回家复习了一会之后，就午休了，醒来之后带上我的小本本还有go语言的书就出发了，由于那边没有地铁，只能坐公交过去了，于是我步行到灵芝地铁站的公交站等车，大概等了4分钟左右，车就到了，坐上车我依然在看着关于redis的内容（但是面试完之后会发现基本没什么卵用），2点40分左右我到了宝华油站公交车，下车之后创维大厦清晰可见，在导航的协助下，我先是进到了创维大厦里面，但是进去后发现并没有我要找的七栋，问了保安才知道是旁边那一栋，然后我走到马路对面，又绕了很大的弯才找到7栋，这也是很tm的不好找啊。<br>直接上7楼，到了之后我发现他们公司竟然和血之缘发现他们公司还是挺大的，占了一整层楼，前台小姐姐现实让我填了个表，然后被引导到里面的会议室去了，他们的会议室布局非常奇怪，围了一个椭圆形的中间是空的，看起来是有些奇怪的，不过没关系了，对于面试来说足够了，我在房间里面等着面试官迟迟没到，于是负责招聘的同事先过来撑场子，在那里和我聊了半天，主要是考察个人的性格以及之前的工作经验这些，中间一度我赶紧她快问完了问题，望向门外面试官依然没有来，她只能硬着头皮继续问，大概过了40分钟面试官终于进来了。<br>面试正式开始了，  具体问了哪些问题我就不在这里赘述了，面试总体下来，感觉自己表现的还算不错了，面试完之后，面试官和人事出去了，过了几分钟之后，人事进来说因为还有其他的候选人要综合评估下，可以在明天问下招聘的人士面试结果，让我先回去了，我当时隐隐有种不好的预感。<br><img src="/medias/images/1031_robot.JPEG"><br>从他们公司出来之后，心情似乎放松了很多，但是有有些遗憾，走出他们公司的时候我看到了有人在调试无人车，觉得做硬件工程师还是挺爽的啊，做出来的东西又有趣又能拿高薪。</p>
+<h2><span id="part-iii-chi-dao-de-mian-shi">Part III、迟到的面试</span><a href="#part-iii-chi-dao-de-mian-shi" class="header-anchor">#</a></h2><p>走出创维谷上公交准备回去的时候，接到了一个电话，看了号码我猜测应该是某个公司的HR，接通电话之后竟然是SHAOKE的人事，想要跟我确定面试时间，我说明天下午吧，上午有事，然后就定了次日下午三点半，想到明天还有两个面试，于是心里再次充满了期望。</p>
+<h2><span id="part-iv-mei-li-wan-xia">Part IV、美丽晚霞</span><a href="#part-iv-mei-li-wan-xia" class="header-anchor">#</a></h2><p>晚上回到家后，想着白天答应的我老婆今天要给她买九制话梅的，在去的过程中发现天边的天空就像一个不胜酒力的少女喝醉了一样，煞是好看。忍不住拍了一些照片。<br><img src="/medias/images/1031_sunset.jpg"><br>于是我就跑到了灵芝地铁站，按照之前的记忆找到了卖话梅的店，到了却发现他们的店员准备下班了，但是还不到7点，这。。。。我问是不是停电了，她们说是的，我不甘心 还是问他们还有没有话梅，她们说正好卖完了，在回家前我问店员可否加她个微信，到货的时候好发给我，她答应了，还把我拉到了他们的顾客群。带着一丝落寞我回到了小区，辗转于几个超市，希望能够给老婆找到话梅，但是找了几家他似乎都不太满意，然后我就买了点东西回家了。</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Shuang Gao</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://babyincar.github.io/2022/11/03/shi-yue-de-zui-hou-yi-tian/">http://babyincar.github.io/2022/11/03/shi-yue-de-zui-hou-yi-tian/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Shuang Gao</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
+                                    <span class="chip bg-color">生活日常</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $(function () {
+        $('.tabs').tabs();
+    });
 </script>
 
-
+            
+        </div>
     </div>
-</div>
-
-<main class="content">
 
     
 
-<div id="tags" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
-            <div class="tag-chips">
-                
-                
-                <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" title="生活日常: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="生活日常" style="background-color: #F9EBEA;">生活日常
-                        <span class="tag-length">3</span>
-                    </span>
+            <div class="card">
+                <a href="/2022/11/03/shi-yue-de-zui-hou-yi-tian/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="十月de最后一天">
+                        
+                        <span class="card-title">十月de最后一天</span>
+                    </div>
                 </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-03
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
+                                    随笔
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
+                        <span class="chip bg-color">生活日常</span>
+                    </a>
+                    
+                </div>
                 
             </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/11/03/2022-11-01/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="十一月的第一天">
+                        
+                        <span class="card-title">十一月的第一天</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-03
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
+                                    随笔
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
+                        <span class="chip bg-color">生活日常</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
 
-    
-    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
-<style type="text/css">
-    #tag-wordcloud {
-        width: 100%;
-        height: 300px;
-    }
-</style>
+<!-- TOC 悬浮按钮. -->
 
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="tag-wordcloud" class="card-content"></div>
-    </div>
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
 </div>
 
-<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
-<script type="text/javascript">
-    
 
-    $('#tag-wordcloud').jQCloud([{"text":"生活日常","weight":3,"link":"/tags/生活日常/"}], {
-        autoResize: true
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
     });
 </script>
 
     
 
 </main>
+
+
 
 
     <footer class="page-footer bg-color">
